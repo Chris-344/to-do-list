@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: left;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: coral;
+  font-size: 10vh;
+}
+.input-box {
+  background-color: rgb(214, 212, 212);
+  border-radius: 10px;
+  width: 85%;
+  height: 1.5rem;
+  border: 0;
+}
+.btn {
+  margin: 5px;
+  padding: 3px;
+  font-size: 1em;
+  background-color: aqua;
+  border: 1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.theList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 3fr));
+}
+ul .input-text {
+  padding-left: 1rem;
+  gap: 1rem;
+  font-size: large;
+}
+ul .btn-danger {
+  color: red;
+  cursor: pointer;
+  margin-left: auto;
+  border-radius: 10px;
+  font-size: large;
+  background-color: orange;
+}
